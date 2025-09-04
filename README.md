@@ -49,6 +49,8 @@ This project is a simple event-driven order processing system for an ecommerce p
 - **Event Ingestion:** Events are read from a JSON file and parsed into Java objects
 - **Order Management:** Orders are created and updated based on incoming events
 
+<img width="3840" height="1714" alt="Untitled diagram _ Mermaid Chart-2025-09-04-114314" src="https://github.com/user-attachments/assets/bb3dccd0-b573-4d4f-a759-0300deb36877" />
+
 ## Low-Level Design
 
 - **Domain Layer:**
@@ -62,6 +64,8 @@ This project is a simple event-driven order processing system for an ecommerce p
   - `EventProcessor` updates orders and notifies observers
 - **Main System:**
   - `OrderProcessingSystem` initializes everything and runs the event processing loop
+
+<img width="3840" height="2491" alt="Untitled diagram _ Mermaid Chart-2025-09-04-114332" src="https://github.com/user-attachments/assets/214a8351-db73-4e0d-923d-42bf435f4d9e" />
 
 ## How to Run
 
