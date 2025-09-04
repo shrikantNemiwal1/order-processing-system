@@ -1,0 +1,6 @@
+{"eventId": "e1", "timestamp": "2025-07-29T10:00:00Z", "eventType": "OrderCreated", "orderId": "ORD001", "customerId": "CUST001", "items": [{"itemId": "P001", "qty": 2}], "totalAmount": 100.00}
+{"eventId": "e2", "timestamp": "2025-07-29T10:05:00Z", "eventType": "OrderCreated", "orderId": "ORD002", "customerId": "CUST002", "items": [{"itemId": "P002", "qty": 1}, {"itemId": "P003", "qty": 3}], "totalAmount": 250.00}
+{"eventId": "e3", "timestamp": "2025-07-29T10:15:00Z", "eventType": "PaymentReceived", "orderId": "ORD001", "amountPaid": 100.00}
+{"eventId": "e4", "timestamp": "2025-07-29T10:20:00Z", "eventType": "PaymentReceived", "orderId": "ORD002", "amountPaid": 150.00}
+{"eventId": "e5", "timestamp": "2025-07-29T10:30:00Z", "eventType": "ShippingScheduled", "orderId": "ORD001", "shippingDate": "2025-07-30T09:00:00Z"}
+{"eventId": "e6", "timestamp": "2025-07-29T10:45:00Z", "eventType": "OrderCancelled", "orderId": "ORD002", "reason": "Customer requested cancellation"}
